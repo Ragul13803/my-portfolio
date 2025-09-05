@@ -3,9 +3,9 @@
 'use client';
 import dynamic from "next/dynamic";
 
-import { experiences } from "@/utils/data/experience";
+import { experiences } from "../../../../../utils/data/experience";
 import Image from "next/image";
-import { BsPersonWorkspace } from "react-icons/bs";
+// import { BsPersonWorkspace } from "react-icons/bs";
 import experience from '../../../assets/lottie/code.json';
 import AnimationLottie from "../../helper/animation-lottie";
 // import GlowCard from "../../helper/glow-card";
@@ -61,7 +61,7 @@ function Experience() {
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                          {/* <BsPersonWorkspace size={36} /> */}
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
