@@ -1,7 +1,7 @@
 export const personalData = {
   name: "Ragul Suresh",
   profile: '/profile.png',
-  designation: "Front-End Developer(React)",
+  designation: "React Front-End Developer",
   description: "My name is Ragul Suresh. I am a professional and enthusiastic web developer. I am a quick learner with a self-learning. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
   email: 'rglsrsh@gmail.com',
   phone: '(+91) 9789 150 194',
