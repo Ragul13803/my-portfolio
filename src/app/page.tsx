@@ -12,7 +12,7 @@ import { personalData } from "../../utils/data/personal-data";
 
 export default function Home() {
   return (
-    <div>
+    <div suppressHydrationWarning>
       {/* <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1> */}
       <HeroSection />
       <AboutSection />
