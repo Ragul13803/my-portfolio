@@ -7,7 +7,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Trainee - Front-End Developer",
+    title: "Trainee - Front End Developer",
     company: "Hema's Enterprises Private Ltd.",
     duration: "(Jun 2024 - Mar 2025)"
   },

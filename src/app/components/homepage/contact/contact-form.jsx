@@ -3,7 +3,7 @@
 import { isValidEmail } from "../../../../../utils/check-email";
 // import axios from "axios";
 import { useState } from "react";
-// import { TbMailForward } from "react-icons/tb";
+import { TbMailForward } from "react-icons/tb";
 import { toast } from "react-toastify";
 
 function ContactForm() {
@@ -115,9 +115,9 @@ function ContactForm() {
               {
                 isLoading ?
                 <span>Sending Message...</span>:
-                <span className="flex items-center gap-1">
+                <span className="flex items-center gap-3">
                   Send Message
-                  {/* <TbMailForward size={20} /> */}
+                  <TbMailForward size={20} />
                 </span>
               }
             </button>
